@@ -12,7 +12,8 @@ async function getApiGithub() {
             <img src="${perfil.avatar_url}" alt="Foto do perfil do Github - ${perfil.name}" />
             <article id="about_texto">
                 <h2>Sobre mim</h2>
-                <p>Sou um desenvolvedor apaixonado por tecnologia e inovação.</p>
+                <p>I'm a tech enthusiast with cybersecurity knowledge and software development.
+Always learning, always building, and damn sure creating something right now!</p>
                 <div id="about_github" class="flex sobre_github">
                     <a href="${perfil.html_url}" target="_blank" class="botao">Github</a>
                     <p>${perfil.followers} seguidores</p>
